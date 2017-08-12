@@ -56,6 +56,9 @@ def fourSum(self, num, target):
         del two_sum[t]
     return [list(r) for r in res]
 ```
+
+***
+
 ### Recursive:
 ```
 def fourSum(self, nums, target):
@@ -92,6 +95,7 @@ def findNsum(self, nums, target, N, result, results):
     return
 ```
 
+***
 
 ### Revised:
 ```
