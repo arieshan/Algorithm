@@ -35,9 +35,10 @@ the inner loop break immediately when nums[j]*4 < target.
 Time Complexity is O(n^3)
 ***
 
-### Implementation:
+## Implementation:
 
-### Iterative:
+
+### Iterative
 ```
 class Solution:
 # @return a list of lists of length 4, [[val1,val2,val3,val4]]
@@ -59,7 +60,7 @@ def fourSum(self, num, target):
 
 ***
 
-### Recursive:
+### Recursive
 ```
 def fourSum(self, nums, target):
     nums.sort()
@@ -97,7 +98,7 @@ def findNsum(self, nums, target, N, result, results):
 
 ***
 
-### Revised:
+### Revised
 ```
 def fourSum(self, nums, target):
     def findNsum(nums, target, N, result, results):
