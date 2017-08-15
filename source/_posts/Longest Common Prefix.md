@@ -8,7 +8,7 @@ Write a function to find the longest common prefix string amongst an array of st
 ***
 
 ### Analysis:
-use two loops check from the start of both string, find the mismatch position and return. The shorter one's length is the end of the loop. Need to consider no prefix and whole match these two conditions.
+use two loops check from the start of both string, find the mismatch position and return. The shortest one's length is the end of the loop. Need to consider no prefix and whole match these two conditions. Time Complexity is O(kn)
 
 ***
 
