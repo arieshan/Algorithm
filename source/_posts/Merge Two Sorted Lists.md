@@ -12,6 +12,8 @@ Basic idea is start from a List, growing it node by node.
 
 In solutions we have a dummy head, and a tail called current indicating last node in this growing List. At each step we append either l1 or l2 to tail, and update tail, l1 or l2 accordingly.
 
+Time Complexity is O(m + n)
+
 ***
 
 ### Implementation:
